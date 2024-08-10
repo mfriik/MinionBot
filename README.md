@@ -38,15 +38,15 @@ The bot also includes an auto-test feature that can be triggered with the comman
 
 Once the bot is running and added to your Discord server, you can use the following commands:
 
-Roll dice: XdY (e.g., 1d20, 3d6)
-Roll with modifier: XdY+Z (e.g., 1d20+5)
-Advantage roll (D&D 5e): XdYa (e.g., 1d20a, 1d20a+5)
-Disadvantage roll (D&D 5e): XdYd (e.g., 1d20d, 1d20d+5)
-Bonus die & double bonus die(Call of Cthulhu): XdYp (e.g., 1d100p)
-Penalty die & double penalty die (Call of Cthulhu): XdYk (e.g., 1d100k)
-Mork Borg special roll: Xd66 (e.g., 1d66)
-Generate D&D stat block: statystyki_dnd
-Get help: help
+- Roll dice: XdY (e.g., 1d20, 3d6)
+- Roll with modifier: XdY+Z (e.g., 1d20+5)
+- Advantage roll (D&D 5e): XdYa (e.g., 1d20a, 1d20a+5)
+- Disadvantage roll (D&D 5e): XdYd (e.g., 1d20d, 1d20d+5)
+- Bonus die & double bonus die(Call of Cthulhu): XdYp (e.g., 1d100p)
+- Penalty die & double penalty die (Call of Cthulhu): XdYk (e.g., 1d100k)
+- Mork Borg special roll: Xd66 (e.g., 1d66)
+- Generate D&D stat block: statystyki_dnd
+- Get help: help
 
 Replace X with the number of dice, Y with the type of die, and Z with the modifier value.
 How It Works
