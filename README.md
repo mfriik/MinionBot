@@ -1,4 +1,4 @@
-# Discord RPG Dice Bot aka **MinionBot**
+# Discord RPG Dice Bot a.k.a. **MinionBot**
 
 This Discord bot is designed to facilitate dice rolling for various tabletop role-playing games (RPGs). It supports a wide range of dice types and special rolling mechanics for games like Dungeons & Dragons, Call of Cthulhu, and Mork Borg.
 Currently it returns messages only in Polish language.
