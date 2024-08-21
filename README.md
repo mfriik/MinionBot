@@ -63,7 +63,7 @@ Supported dice types in rolls.py
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! If you plan to contribute back to this repo, please fork & create the PR against the dev branch.
 
 ## License
 
