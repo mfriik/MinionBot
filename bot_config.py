@@ -3,62 +3,15 @@
 import discord
 from discord.ext import tasks, commands
 import responses
-
-# import roles
 import members
 from params import token
 import asyncio
 import sys
 import time
-
+from channels_whitelist import channels_on, channels_on_test
 key = token
-channels_on = [
-    # Main channels
-    "gra-u-szadka",
-    "testy",
-    "DD 3e",
-    "ZEW",
-    "WARHAMMER",
-    "GRA",
-    "CYKLE",
-    "DCC",
-    "OSE",
-    "jednostrzały",
-    "DD 5e",
-    "CYBERPUNKRED",
-    "Sesja publiczna",
-    "SESJA PUBLICZNA",
-    "generau-czat",
-    "DELTA GREEN",
-    "Mothership",
-    "Traveller",
-    "cp",
-    "dd",
-    # DPS Channels
-    "Off",
-    "Tomas_DPS",
-    "Basia_DPS",
-    "Mirko",
-    "Inne",
-    "Paqul",
-    "Kot",
-    "Stream",
-    "dyskusje",
-    "Coen",
-    # END OF DPS Channels
-    # COENCAVE Channels
-    "Sesja-Coena",
-    "Pogaduszki",
-    "grane-w-gre",
-    # END OF COENCAVE Channels
-    # Additional channels from previous config
-    "Tajemnice Pętli",
-    "Never going home",
-    "Delta Green",
-    "Słowianie",
-    "Warhammer",
-]
-channels_on_test = ["sala_spotkań", "dział_techcznicny", "general"]
+channels_on = channels_on #Imports Withelist from channels_whitelist.py
+channels_on_test = channels_on_test #Imports Withelist on test from channels_whitelist.py
 bot_self_mention_string = ""
 auto_test_task = None  # Define the auto_test_task variable globally
 
