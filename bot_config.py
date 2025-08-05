@@ -13,6 +13,7 @@ import time
 
 key = token
 channels_on = [
+    # Main channels
     "gra-u-szadka",
     "testy",
     "DD 3e",
@@ -31,14 +32,32 @@ channels_on = [
     "DELTA GREEN",
     "Mothership",
     "Traveller",
-    # DPS REQUIREMENT
+    "cp",
+    "dd",
+    # DPS Channels
+    "Off",
+    "Tomas_DPS",
+    "Basia_DPS",
+    "Mirko",
+    "Inne",
+    "Paqul",
+    "Kot",
+    "Stream",
+    "dyskusje",
+    "Coen",
+    # END OF DPS Channels
+    # COENCAVE Channels
+    "Sesja-Coena",
+    "Pogaduszki",
+    "grane-w-gre",
+    # END OF COENCAVE Channels
+    # Additional channels from previous config
     "Tajemnice Pętli",
     "Never going home",
     "Delta Green",
     "Słowianie",
     "Warhammer",
 ]
-# END OF DPS REQUIREMENT
 channels_on_test = ["sala_spotkań", "dział_techcznicny", "general"]
 bot_self_mention_string = ""
 auto_test_task = None  # Define the auto_test_task variable globally
